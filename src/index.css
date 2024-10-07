@@ -11,3 +11,106 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+body.light {
+  background-color: white;
+  color: black;
+}
+
+body.dark {
+  background-color: black;
+  color: white;
+}
+
+
+.theme-container {
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+/* Light and Dark Theme styles */
+.light-theme {
+  background-color: #fff;
+  color: #000;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+/* Button styles */
+.button {
+  margin: 10px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Grid layout styles */
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* List layout styles */
+.list-layout {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Box styles */
+.box {
+  padding: 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-align: center;
+}
+
+/*notifiaction css */
+
+/* Styles for the app layout */
+.app {
+  text-align: center;
+  margin-top: 50px;
+}
+
+/* Button styling */
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color:yellow;
+  border-radius: 5px;
+}
+
+/* Notification container styling */
+.notification-container {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+/* Individual notification styling */
+.notification {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
