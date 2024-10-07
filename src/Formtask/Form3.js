@@ -225,6 +225,7 @@ const Form3 = () => {
       err.inner.forEach((error) => {
         validationErrors[error.path] = error.message;
       });
+      
       setErrors(validationErrors); 
     }
   };
